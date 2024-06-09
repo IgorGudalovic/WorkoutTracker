@@ -23,7 +23,7 @@ namespace GymTrackerAPI.Controllers
             var exists = await _context.Users.AnyAsync(u => u.Username == username);
             if (exists)
             {
-                return Conflict(new { message = "Username already exists" }); // 409 Conflict
+                return Conflict(new { message = "Username already exists" });
             }
             return Ok(new { message = "Username is available" });
         }
@@ -33,6 +33,25 @@ namespace GymTrackerAPI.Controllers
         {
             var data = _workoutService.GetWeeklyAggregatedDataByUsername(username, month, year);
             return Ok(data);
+        }
+
+        [HttpGet("user-workouts")]
+        public async Task<ActionResult<List<WorkoutRecord>>> GetWorkoutRecordsByUsername(string username)
+        {
+            // Check if the username exists
+            var userExists = await _context.Users.AnyAsync(u => u.Username == username);
+            if (!userExists)
+            {
+                return NotFound(new { message = "User not found" });
+            }
+
+            // Retrieve workout records for the specified username
+            var workoutRecords = await _context.WorkoutRecords
+                                                .Where(w => w.Username == username)
+                                                .OrderBy(w => w.WorkoutDate)
+                                                .ToListAsync();
+
+            return Ok(workoutRecords);
         }
 
         [HttpGet("{id}")]

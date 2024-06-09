@@ -6,6 +6,7 @@ import WorkoutCalendar from './components/WorkoutCalendar';
 import AddWorkoutForm from './components/AddWorkoutForm';
 import LogoutButton from './components/LogoutButton';
 import { UserProvider } from './context/UserContext';
+import DetailedWorkouts from './components/DetailedWorkouts';
 import './App.css';
 
 function App() {
@@ -18,8 +19,10 @@ function App() {
             <Route path="/login" element={<LoginForm />} />
             <Route path="/register" element={<RegisterForm />} />
             <Route path="/calendar" element={<WorkoutCalendar />} />
-            <Route path="/add-training" element={<AddWorkoutForm />} />
+            <Route path="/add-training" element={<AddWorkoutForm />} /> 
+            <Route path="/details" element={<DetailedWorkouts/>} />
             <Route path="/" element={<Navigate to="/login" />} />
+           
           </Routes>
         </div>
       </Router>

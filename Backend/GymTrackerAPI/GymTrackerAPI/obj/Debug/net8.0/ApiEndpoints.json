@@ -230,6 +230,32 @@
   },
   {
     "ContainingType": "GymTrackerAPI.Controllers.WorkoutRecordsController",
+    "Method": "GetWorkoutRecordsByUsername",
+    "RelativePath": "api/WorkoutRecords/user-workouts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GymTrackerAPI.Models.WorkoutRecord, GymTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GymTrackerAPI.Controllers.WorkoutRecordsController",
     "Method": "GetWeeklyDataByUsername",
     "RelativePath": "api/WorkoutRecords/weekly-data",
     "HttpMethod": "GET",

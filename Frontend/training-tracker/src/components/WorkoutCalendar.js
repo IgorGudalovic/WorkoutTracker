@@ -74,6 +74,11 @@ const WorkoutCalendar = () => {
                     </div>
                 ))}
             </div>
+            <button >
+                <Link to={`/details`} >
+                    More Info
+                </Link>
+            </button>
       </div>
   );
 };

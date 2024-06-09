@@ -34,5 +34,6 @@ namespace GymTrackerAPI.Models
 
             return result;
         }
+
     }
 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\igorg\\Desktop\\WorkoutTracker\\Backend\\GymTrackerAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69F5D724-8F77-4F1B-BF00-757DDF55680B}|GymTrackerAPI\\GymTrackerAPI.csproj|c:\\users\\igorg\\desktop\\workouttracker\\backend\\gymtrackerapi\\gymtrackerapi\\models\\workoutrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F5D724-8F77-4F1B-BF00-757DDF55680B}|GymTrackerAPI\\GymTrackerAPI.csproj|solutionrelative:gymtrackerapi\\models\\workoutrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69F5D724-8F77-4F1B-BF00-757DDF55680B}|GymTrackerAPI\\GymTrackerAPI.csproj|c:\\users\\igorg\\desktop\\workouttracker\\backend\\gymtrackerapi\\gymtrackerapi\\controllers\\workoutrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F5D724-8F77-4F1B-BF00-757DDF55680B}|GymTrackerAPI\\GymTrackerAPI.csproj|solutionrelative:gymtrackerapi\\controllers\\workoutrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F5D724-8F77-4F1B-BF00-757DDF55680B}|GymTrackerAPI\\GymTrackerAPI.csproj|c:\\users\\igorg\\desktop\\workouttracker\\backend\\gymtrackerapi\\gymtrackerapi\\models\\workoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F5D724-8F77-4F1B-BF00-757DDF55680B}|GymTrackerAPI\\GymTrackerAPI.csproj|solutionrelative:gymtrackerapi\\models\\workoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F5D724-8F77-4F1B-BF00-757DDF55680B}|GymTrackerAPI\\GymTrackerAPI.csproj|c:\\users\\igorg\\desktop\\workouttracker\\backend\\gymtrackerapi\\gymtrackerapi\\models\\workoutrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F5D724-8F77-4F1B-BF00-757DDF55680B}|GymTrackerAPI\\GymTrackerAPI.csproj|solutionrelative:gymtrackerapi\\models\\workoutrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WorkoutService.cs",
               "DocumentMoniker": "C:\\Users\\igorg\\Desktop\\WorkoutTracker\\Backend\\GymTrackerAPI\\GymTrackerAPI\\Models\\WorkoutService.cs",
               "RelativeDocumentMoniker": "GymTrackerAPI\\Models\\WorkoutService.cs",
               "ToolTip": "C:\\Users\\igorg\\Desktop\\WorkoutTracker\\Backend\\GymTrackerAPI\\GymTrackerAPI\\Models\\WorkoutService.cs",
               "RelativeToolTip": "GymTrackerAPI\\Models\\WorkoutService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAA7AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T12:16:34.011Z"
+              "WhenOpened": "2024-06-06T12:16:34.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WorkoutRecord.cs",
               "DocumentMoniker": "C:\\Users\\igorg\\Desktop\\WorkoutTracker\\Backend\\GymTrackerAPI\\GymTrackerAPI\\Models\\WorkoutRecord.cs",
               "RelativeDocumentMoniker": "GymTrackerAPI\\Models\\WorkoutRecord.cs",
               "ToolTip": "C:\\Users\\igorg\\Desktop\\WorkoutTracker\\Backend\\GymTrackerAPI\\GymTrackerAPI\\Models\\WorkoutRecord.cs",
               "RelativeToolTip": "GymTrackerAPI\\Models\\WorkoutRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T01:32:15.972Z"
+              "WhenOpened": "2024-06-06T01:32:15.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WorkoutRecordsController.cs",
               "DocumentMoniker": "C:\\Users\\igorg\\Desktop\\WorkoutTracker\\Backend\\GymTrackerAPI\\GymTrackerAPI\\Controllers\\WorkoutRecordsController.cs",
               "RelativeDocumentMoniker": "GymTrackerAPI\\Controllers\\WorkoutRecordsController.cs",
               "ToolTip": "C:\\Users\\igorg\\Desktop\\WorkoutTracker\\Backend\\GymTrackerAPI\\GymTrackerAPI\\Controllers\\WorkoutRecordsController.cs",
               "RelativeToolTip": "GymTrackerAPI\\Controllers\\WorkoutRecordsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAArAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowCgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T22:21:01.336Z",
               "EditorCaption": ""
